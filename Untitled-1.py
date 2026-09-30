@@ -1,3 +1,6 @@
+import msvcrt
+
+
 def add(a: float, b: float) -> float:
 	"""Return the sum of two numbers."""
 	return a + b
@@ -9,3 +12,5 @@ if __name__ == "__main__":
 	abc = first+second;
 	print(f"两数之和为: {add(first, second)}")
 	print(f"两数之和方法2为: {abc}")
+	print("Press any key to exit...")
+	msvcrt.getch()
