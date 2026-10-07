@@ -163,7 +163,7 @@ class JFlashApp:
 
         button_frame = ttk.Frame(frame)
         button_frame.grid(row=5, column=0, columnspan=3, pady=(10, 5))
-        self.flash_button = ttk.Button(button_frame, text="\u5f00\u59cb\u81ea\u52a8\u70e7\u5f55", command=self.start_flash)
+        self.flash_button = ttk.Button(button_frame, text="\u70e7\u5f55(F2)", command=self.start_flash)
         self.flash_button.grid(row=0, column=0, padx=5)
         ttk.Button(button_frame, text="\u6e05\u7a7a\u65e5\u5fd7", command=self.clear_log).grid(row=0, column=1, padx=5)
         ttk.Button(button_frame, text="\u9000\u51fa", command=self.root.destroy).grid(row=0, column=2, padx=5)
